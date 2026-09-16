@@ -520,9 +520,10 @@
       line-height: 1.15;
     }
 
+    /* 16/09/2026 : une seule voix pour le titre (plus d'italique doré au milieu de la phrase) */
     .hero h1 em {
-      font-style: italic;
-      color: var(--gold-light);
+      font-style: normal;
+      color: inherit;
     }
 
     .hero-text {
@@ -1683,7 +1684,7 @@
       margin-bottom: 16px;
       animation: successSlideIn 0.6s ease 0.4s both;
     }
-    .form-success-overlay h3 em { font-style: italic; color: var(--gold-light); }
+    .form-success-overlay h3 em { font-style: normal; color: inherit; }
 
     .form-success-overlay p {
       color: rgba(248,249,246,0.6);
